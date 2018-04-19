@@ -14,3 +14,4 @@ grammar_cjkRuby: true
  * try块必须和catch块或和finally同在,不能单独存在,二者必须出现一个
  *  finally块总会执行,不论是否有错误出现.但是若try语句块或会执行的
  *   catch语句块使用了JVM系统退出语句,finally块就不会被执行了. 一般我们把关闭资源的代码放在finally里面 保证资源总是能关闭
+ *   final用于声明属性、方法、类。分别表示属性不可更改、方法不能被覆盖、类不能被继承。
